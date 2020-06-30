@@ -21,9 +21,9 @@ spring:
 #    password: rootroot
 #    driver-class-name: com.mysql.jdbc.Driver
     #Postgresql Config
-    url: jdbc:postgres://nvoxlrpenasdhy:5ae4a83ddad70160950d3fd78b7c736b9de6a1c2943269af0eb4adf5121d3e95@ec2-18-213-176-229.compute-1.amazonaws.com:5432/daschsfeg0qb7l
-    username: nvoxlrpenasdhy
-    password: 5ae4a83ddad70160950d3fd78b7c736b9de6a1c2943269af0eb4adf5121d3e95
+#    url: jdbc:postgres://nvoxlrpenasdhy:5ae4a83ddad70160950d3fd78b7c736b9de6a1c2943269af0eb4adf5121d3e95@ec2-18-213-176-229.compute-1.amazonaws.com:5432/daschsfeg0qb7l
+#    username: nvoxlrpenasdhy
+#    password: 5ae4a83ddad70160950d3fd78b7c736b9de6a1c2943269af0eb4adf5121d3e95
  
   jpa:
     hibernate:
