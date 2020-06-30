@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: Pharma Application
+  #MongoDB Config
+  data:
+#    mongodb:
+#      uri: mongodb+srv://admin:admin@clustermongo-fa8ao.mongodb.net/test?retryWrites=true&w=majority
+#      host: localhost
+#      port: 27017
+#      database: mongo
+#      repositories:#        enabled: true
+#  mvc:#    static-path-pattern: /test/**
+
+  ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+  datasource:
+    #MySql Config
+#    url: jdbc:mysql://localhost:3306/test2
+#    username: root
+#    password: rootroot
+#    driver-class-name: com.mysql.jdbc.Driver
+    #Postgresql Config    url: jdbc:postgresql://localhost:5432/test2
+    username: postgres
+    password: root
+   jpa:    hibernate:      ddl-auto: create-drop    show-sql: true
+      
+#server:#  port: 8095
+
+adata:
+  test: string test
