@@ -25,13 +25,13 @@ spring:
     url: jdbc:postgresql://ec2-18-213-176-229.compute-1.amazonaws.com:5432/daschsfeg0qb7l
     username: nvoxlrpenasdhy
     password: 5ae4a83ddad70160950d3fd78b7c736b9de6a1c2943269af0eb4adf5121d3e95
-	driver-class-name: org.postgresql.Driver
+    driver-class-name: org.postgresql.Driver
  
   jpa:
     hibernate:
       ddl-auto: create-drop
     show-sql: false	#true
-	properties:
+    properties:
       hibernate:
         jdbc:
           lob:
